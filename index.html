@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Collection</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf6e3;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 8px 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff6f61;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 15px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h1, h2 {
+            color: #000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        figure {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        figcaption {
+            font-style: italic;
+            margin-top: 5px;
+        }
+
+        .back-top {
+            display: inline-block;
+            margin-top: 10px;
+            color: #ff6f61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* 🔹 Responsive for small screens */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            th, td {
+                font-size: 14px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body id="top">
+
+<header>
+    <h1>My Personal Recipe Collection</h1>
+    <p>Recipes • Nutrition • Images</p>
+</header>
+
+<nav>
+    <a href="#main-dish">Main Dish</a>
+    <a href="#drinks">Drinks</a>
+    <a href="#desserts">Desserts</a>
+</nav>
+
+<main>
+
+    <!-- Main Dish -->
+    <section id="main-dish">
+        <h2>Chicken Biryani</h2>
+
+        <p><strong style="color:red;">Ingredients:</strong>
+            Basmati rice, chicken, fried onions, mint, coriander, biryani masala, curd, ghee.
+        </p>
+
+        <p><strong style="color:red;">Instructions:</strong>
+            Parboil rice. Fry chicken with spices. Layer rice and chicken with herbs and curd.
+            Seal and cook on dum.
+        </p>
+
+        <table>
+            <tr>
+                <th>Calories</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Energy</td>
+                <td>480–520 kcal</td>
+            </tr>
+            <tr>
+                <td>Protein</td>
+                <td>22–25 g</td>
+            </tr>
+            <tr>
+                <td>Carbohydrates</td>
+                <td>55–65 g</td>
+            </tr>
+        </table>
+
+        <figure>
+            <img src="biryani.webp" alt="Chicken Biryani">
+            <figcaption>Chicken Biryani</figcaption>
+        </figure>
+
+        <a class="back-top" href="#top">Back to top</a>
+    </section>
+
+    <!-- Drinks -->
+    <section id="drinks">
+        <h2>Masala Buttermilk</h2>
+
+        <p><strong style="color:red;">Ingredients:</strong>
+            Curd, water, cumin powder, black salt, green chili, ginger, hing.
+        </p>
+
+        <p><strong style="color:red;">Instructions:</strong>
+            Whisk curd, add water, mix spices, garnish with mint and coriander.
+            Serve chilled.
+        </p>
+
+        <table>
+            <tr>
+                <th>Nutrient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Protein</td>
+                <td>2–3 g</td>
+            </tr>
+            <tr>
+                <td>Carbohydrates</td>
+                <td>4–5 g</td>
+            </tr>
+            <tr>
+                <td>Fat</td>
+                <td>1–2 g</td>
+            </tr>
+        </table>
+
+        <figure>
+            <img src="drinks.jpg" alt="Masala Buttermilk">
+            <figcaption>Masala Buttermilk</figcaption>
+        </figure>
+
+        <a class="back-top" href="#top">Back to top</a>
+    </section>
+
+    <!-- Desserts -->
+    <section id="desserts">
+        <h2>Chocolate Cake</h2>
+
+        <p><strong style="color:red;">Ingredients:</strong>
+            Sugar, cocoa powder, baking powder, eggs, milk, vanilla.
+        </p>
+
+        <p><strong style="color:red;">Instructions:</strong>
+            Mix ingredients, pour into pan, bake at 350°F (175°C) for 30–35 minutes.
+        </p>
+
+        <table>
+            <tr>
+                <th>Nutrient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Protein</td>
+                <td>3–4 g</td>
+            </tr>
+            <tr>
+                <td>Carbohydrates</td>
+                <td>35–40 g</td>
+            </tr>
+            <tr>
+                <td>Fat</td>
+                <td>10–12 g</td>
+            </tr>
+        </table>
+
+        <figure>
+            <img src="cake.jpg" alt="Chocolate Cake">
+            <figcaption>Chocolate Cake</figcaption>
+        </figure>
+
+        <a class="back-top" href="#top">Back to top</a>
+    </section>
+
+</main>
+
+</body>
+</html>
